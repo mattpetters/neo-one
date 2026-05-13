@@ -1,0 +1,26 @@
+# Neo-One Dark — matrix-green monochrome for Ghostty
+# Pure black background, layered forest/olive greens.
+# Pairs with: neo-one-dark Hermes skin + neo-one NvChad theme
+palette = 0=#000000
+palette = 1=#6b8454
+palette = 2=#a8c989
+palette = 3=#b8d49a
+palette = 4=#5a7142
+palette = 5=#3d4f2b
+palette = 6=#6b8454
+palette = 7=#a8c989
+palette = 8=#3d4f2b
+palette = 9=#6b8454
+palette = 10=#b8d49a
+palette = 11=#b8d49a
+palette = 12=#5a7142
+palette = 13=#4a5a3a
+palette = 14=#7a9a5f
+palette = 15=#b8d49a
+
+background = #000000
+foreground = #a8c989
+cursor-color = #b8d49a
+selection-background = #1a2310
+selection-foreground = #a8c989
+split-divider-color = #3d4f2b

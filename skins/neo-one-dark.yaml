@@ -1,0 +1,89 @@
+name: neo-one-dark
+description: Neo-One Dark — matrix-green monochrome terminal aesthetic (pure black bg, layered forest/olive greens)
+
+# Palette reference (mactop-lime → Hermes slots):
+#   bg            #000000    bg_panel    #0a0f06
+#   bg_alt        #050a03    bg_status   #0d1208    bg_visual #1a2310
+#   fg            #a8c989    fg_dim      #6b8454    fg_dimmer #3d4f2b
+#   primary       #a8c989    accent      #b8d49a    accent2   #6b8454
+#   accent3       #5a7142    danger      #5a4a2a    magenta   #4a5a3a    cyan #7a9a5f
+
+colors:
+  # Banner — phosphor-green calligraphy with lime glow accents
+  banner_border: "#5a7142"
+  banner_title:  "#a8c989"
+  banner_accent: "#b8d49a"
+  banner_dim:    "#3d4f2b"
+  banner_text:   "#a8c989"
+
+  # Core UI
+  ui_accent: "#a8c989"
+  ui_label:  "#7a9a5f"
+  ui_ok:     "#b8d49a"
+  ui_error:  "#5a4a2a"
+  ui_warn:   "#6b8454"
+
+  # Prompt + rules
+  prompt:          "#a8c989"
+  input_rule:      "#1a2310"
+  response_border: "#5a7142"
+
+  # Session header
+  session_label:  "#a8c989"
+  session_border: "#3d4f2b"
+
+  # Status bar (dark panel above pure black bg)
+  status_bar_bg:       "#0d1208"
+  status_bar_text:     "#a8c989"
+  status_bar_strong:   "#b8d49a"
+  status_bar_dim:      "#3d4f2b"
+  status_bar_good:     "#b8d49a"
+  status_bar_warn:     "#6b8454"
+  status_bar_bad:      "#5a4a2a"
+  status_bar_critical: "#5a4a2a"
+
+  # Voice / completion menus
+  voice_status_bg:                  "#0d1208"
+  completion_menu_bg:               "#050a03"
+  completion_menu_current_bg:       "#0a0f06"
+  completion_menu_meta_bg:          "#050a03"
+  completion_menu_meta_current_bg:  "#0d1208"
+
+spinner: {}
+
+branding:
+  agent_name: "Hermes Agent"
+  welcome: "ようこそ — Neo-One Dark. Follow the white rabbit. Type /help."
+  goodbye: "またね 〜 ⚕"
+  response_label: " ⚕ Hermes "
+  prompt_symbol: "❯ "
+  help_header: "(^_^)? Available Commands"
+
+tool_prefix: "┊"
+
+# Block-letter banner — NEO-ONE in phosphor gradient
+banner_logo: |
+  [bold #3d4f2b]███╗   ██╗███████╗ ██████╗        ██████╗ ███╗   ██╗███████╗[/]
+  [bold #5a7142]████╗  ██║██╔════╝██╔═══██╗      ██╔═══██╗████╗  ██║██╔════╝[/]
+  [bold #6b8454]██╔██╗ ██║█████╗  ██║   ██║█████╗██║   ██║██╔██╗ ██║█████╗  [/]
+  [bold #7a9a5f]██║╚██╗██║██╔══╝  ██║   ██║╚════╝██║   ██║██║╚██╗██║██╔══╝  [/]
+  [bold #a8c989]██║ ╚████║███████╗╚██████╔╝      ╚██████╔╝██║ ╚████║███████╗[/]
+  [bold #b8d49a]╚═╝  ╚═══╝╚══════╝ ╚═════╝        ╚═════╝ ╚═╝  ╚═══╝╚══════╝[/]
+
+# Matrix digital rain — braille code-fall in layered greens.
+# Motif: phosphor-green katakana rain against pure black void.
+banner_hero: |
+  [#0a0f06]  ⠀ ⠀ ⠀ ⠀ ⠀ ⢀ ⠀ ⢀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀[/]
+  [#1a2310]  ⠀ ⠀ ⠀ ⢀ ⠀ ⢠ ⠀ ⢀ ⠀ ⠀ ⠀ ⠀ ⠀ ⢀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⢀ ⠀ ⠀ ⠀ ⠀ ⢀ ⠀ ⢀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⢀[/]
+  [#3d4f2b]  ⠀ ⢀ ⠀ ⣠ ⠀ ⣤ ⠀ ⣠ ⠀ ⢠ ⠀ ⠀ ⠀ ⢀ ⠀ ⣀ ⠀ ⠀ ⢀ ⠀ ⠀ ⢀ ⠀ ⣀ ⠀ ⢀ ⠀ ⣀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⣀[/]
+  [#5a7142]  ⣿ ⣤ ⣶ ⣿ ⣤ ⣿ ⣴ ⣿ ⣤ ⣶ ⠀ ⣀ ⣴ ⣀ ⣶ ⣤ ⣾ ⣴ ⣾ ⣼ ⣾ ⣶ ⣿ ⣤ ⣿ ⣴ ⣿ ⣤ ⣶ ⣀ ⣴ ⣀ ⣶ ⣤ ⣾[/]
+  [#6b8454]  ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣴ ⣶ ⣿ ⣶ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣶ ⣿ ⣶ ⣿ ⣿ ⣿[/]
+  [#a8c989]  ⣿ ⣾ ⣷ ⣿ ⣿ ⣿ ⣿ ⣿ ⣾ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣾ ⣿ ⣷ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣾[/]
+  [#b8d49a]  ⠀ ⣿ ⣿ ⣿ ⣿ ⣿ ⣷ ⣿ ⣾ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣾ ⣿ ⣿ ⣿ ⣷ ⣿ ⣾ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿[/]
+  [#a8c989]  ⠀ ⠀ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣷ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⠀[/]
+  [#6b8454]  ⠀ ⠀ ⠀ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣷ ⣿ ⣿ ⣿ ⣷ ⣼ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⠀ ⠀ ⠀[/]
+  [#5a7142]  ⠀ ⠀ ⠀ ⠀ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣷ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣷ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⠀ ⠀ ⠀ ⠀ ⠀[/]
+  [#3d4f2b]  ⠀ ⠀ ⠀ ⠀ ⠀ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀[/]
+  [#1a2310]  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⣿ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀[/]
+  [bold #a8c989]                      N E O  ·  O N E[/]
+  [dim #6b8454]                目覚めよ  ·  マトリックス[/]
