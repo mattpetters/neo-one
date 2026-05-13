@@ -22,6 +22,22 @@ Full 16-color ANSI palettes are in the Ghostty theme files.
 | **neo-one-dark**  | `/skin neo-one-dark` | `neo-one-dark` theme  | `neo-one-dark` base46 |
 | **neo-one-light** | `/skin neo-one-light`| `neo-one-light` theme | `neo-one-light` base46|
 
+## Morpheus Personality
+
+A conversational persona for Hermes Agent that channels Morpheus — the
+mentor, the guide, the operator. Slow, deliberate, philosophical. Pairs with
+the neo-one skin for the full Matrix experience.
+
+```bash
+# Install the personality in Hermes
+# (already wired into the repo's personalities/morpheus.md — copy to config)
+
+# Then activate:
+/personality morpheus
+```
+
+The full prompt lives in [`personalities/morpheus.md`](personalities/morpheus.md).
+
 ## Installing
 
 ### Hermes Agent
