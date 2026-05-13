@@ -1,0 +1,82 @@
+{
+  "$schema": "https://raw.githubusercontent.com/earendil-works/pi-mono/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "name": "neo-one-light",
+  "vars": {
+    "pine": "#2a3818",
+    "forest": "#3d4f2b",
+    "olive": "#5a7142",
+    "sage": "#6b8454",
+    "lightGreen": "#7a8a5f",
+    "amber": "#7a4a3a",
+    "selectedBg": "#d5d3c0",
+    "userMsgBg": "#ede9db",
+    "toolPendingBg": "#e8e4d5",
+    "toolSuccessBg": "#d8e8d0",
+    "toolErrorBg": "#e8d8d5",
+    "customMsgBg": "#e4e8d5"
+  },
+  "colors": {
+    "accent": "forest",
+    "border": "olive",
+    "borderAccent": "forest",
+    "borderMuted": "lightGreen",
+    "success": "sage",
+    "error": "amber",
+    "warning": "olive",
+    "muted": "lightGreen",
+    "dim": "selectedBg",
+    "text": "",
+    "thinkingText": "lightGreen",
+
+    "selectedBg": "selectedBg",
+    "userMessageBg": "userMsgBg",
+    "userMessageText": "",
+    "customMessageBg": "customMsgBg",
+    "customMessageText": "",
+    "customMessageLabel": "forest",
+    "toolPendingBg": "toolPendingBg",
+    "toolSuccessBg": "toolSuccessBg",
+    "toolErrorBg": "toolErrorBg",
+    "toolTitle": "",
+    "toolOutput": "olive",
+
+    "mdHeading": "forest",
+    "mdLink": "olive",
+    "mdLinkUrl": "lightGreen",
+    "mdCode": "forest",
+    "mdCodeBlock": "sage",
+    "mdCodeBlockBorder": "lightGreen",
+    "mdQuote": "lightGreen",
+    "mdQuoteBorder": "selectedBg",
+    "mdHr": "selectedBg",
+    "mdListBullet": "forest",
+
+    "toolDiffAdded": "sage",
+    "toolDiffRemoved": "amber",
+    "toolDiffContext": "lightGreen",
+
+    "syntaxComment": "#7a8a5f",
+    "syntaxKeyword": "#3d4f2b",
+    "syntaxFunction": "#5a7142",
+    "syntaxVariable": "#2a3818",
+    "syntaxString": "#5a4a2a",
+    "syntaxNumber": "#4a6235",
+    "syntaxType": "#5a7142",
+    "syntaxOperator": "#2a3818",
+    "syntaxPunctuation": "#4a6235",
+
+    "thinkingOff": "lightGreen",
+    "thinkingMinimal": "#7a8a5f",
+    "thinkingLow": "sage",
+    "thinkingMedium": "olive",
+    "thinkingHigh": "forest",
+    "thinkingXhigh": "#2a3818",
+
+    "bashMode": "forest"
+  },
+  "export": {
+    "pageBg": "#f5f2e8",
+    "cardBg": "#faf9f3",
+    "infoBg": "#ede9db"
+  }
+}
